@@ -1,7 +1,7 @@
 # 🖥️ Building Relational Database - FIAP
  
 ## 📊 Bem vindos ao repositório da disciplina Building Relational Database!
-📚 Assuntos que iremos desenvolver ao longo da disciplina:
+<strong>Assuntos que iremos desenvolver ao longo da disciplina:</strong>
 
 - Introdução e conceitos gerais de Banco de Dados;
 - Modelagem conceitual, lógica e física (relacional) de dados;
