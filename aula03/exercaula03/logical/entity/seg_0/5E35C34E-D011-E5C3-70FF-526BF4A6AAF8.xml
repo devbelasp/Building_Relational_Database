@@ -14,4 +14,32 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_produto" id="928CAD3C-5A52-7C77-1AB6-6FAAE278D4C9">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-25 15:14:42 UTC</createdTime>
+<ownerDesignName>exercaula03</ownerDesignName>
+<engineerTo>
+<item key="15CF6449-8499-47BE-8333-447BDACB82D3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_produto" id="10C178C6-87AA-2EA9-560C-5C1DE877500A">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-25 15:16:14 UTC</createdTime>
+<ownerDesignName>exercaula03</ownerDesignName>
+<engineerTo>
+<item key="15CF6449-8499-47BE-8333-447BDACB82D3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
 </Entity>
