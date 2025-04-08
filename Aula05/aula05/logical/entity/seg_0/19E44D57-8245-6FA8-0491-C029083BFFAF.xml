@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="19E44D57-8245-6FA8-0491-C029083BFFAF" name="T_AUTOR_LIVRO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 12:57:37 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="0A1F2404-E310-1AE1-71E8-FB6792AAEDB4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_autor" id="381B7284-2558-B749-D779-2CF7F5E45C26">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 12:58:19 UTC</createdTime>
+<comment><![CDATA[Este atributo receberá a chave primária e armazenará o id do autor.]]></comment>
+<generatorID>78BB3CA3-9A42-6605-E905-6F7BFDF55175</generatorID>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="0A1F2404-E310-1AE1-71E8-FB6792AAEDB4" value="true"/>
+</engineerTo>
+<referedAttribute>DB69CE86-1544-1E4A-72C0-E3B17F4D4CD8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_livro" id="5EE0E63C-F79E-1C34-027E-20AEF6DC29F7">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 12:58:57 UTC</createdTime>
+<comment><![CDATA[Este atributo receberá a chave primária e armazenará o código do livro.]]></comment>
+<generatorID>F077E788-18E2-54C4-B04B-5C9DEBC969FE</generatorID>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="0A1F2404-E310-1AE1-71E8-FB6792AAEDB4" value="true"/>
+</engineerTo>
+<referedAttribute>73C18935-C8F4-B6A6-B63C-9886938A14C1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="156798DB-1828-0E89-AB57-CF64FF89D9F6" name="T_AUTOR_LIVRO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 12:58:19 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="0A1F2404-E310-1AE1-71E8-FB6792AAEDB4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>381B7284-2558-B749-D779-2CF7F5E45C26</attributeRef>
+<attributeRef>5EE0E63C-F79E-1C34-027E-20AEF6DC29F7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

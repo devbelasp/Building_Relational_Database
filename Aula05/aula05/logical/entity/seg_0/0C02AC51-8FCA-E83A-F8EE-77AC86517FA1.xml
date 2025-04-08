@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0C02AC51-8FCA-E83A-F8EE-77AC86517FA1" name="T_LOGIN_RHSTU">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 12:14:41 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="0A1F2404-E310-1AE1-71E8-FB6792AAEDB4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_login" id="F015D75F-2101-CE63-534F-361CC730DA23">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 12:53:36 UTC</createdTime>
+<comment><![CDATA[Este atributo receberá a chave primária e armazenará o id do login.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo receberá a chave primária e armazenará o id do login.]]></commentInRDBMS>
+<notes><![CDATA[Este atributo receberá a chave primária e armazenará o id do login.]]></notes>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="0A1F2404-E310-1AE1-71E8-FB6792AAEDB4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_funcionario" id="785279EB-F700-D71C-A810-15E99493C3C7">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 12:54:32 UTC</createdTime>
+<comment><![CDATA[Este atributo irá receber a chave primária e armazenará o id do funcionário.]]></comment>
+<generatorID>EDA39080-76F8-5CE0-854A-A18FB1433494</generatorID>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="0A1F2404-E310-1AE1-71E8-FB6792AAEDB4" value="true"/>
+</engineerTo>
+<referedAttribute>CE1BF2A9-8D5E-A048-9BD3-5E1B81BF0CB7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FC84B177-C269-3591-A9D2-001C801D63A9" name="T_LOGIN_RHSTU PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 12:54:20 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="0A1F2404-E310-1AE1-71E8-FB6792AAEDB4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F015D75F-2101-CE63-534F-361CC730DA23</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

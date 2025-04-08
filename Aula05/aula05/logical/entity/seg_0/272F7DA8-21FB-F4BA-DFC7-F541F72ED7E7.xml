@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="272F7DA8-21FB-F4BA-DFC7-F541F72ED7E7" name="T_ATENDIMENTO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 12:45:26 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="0A1F2404-E310-1AE1-71E8-FB6792AAEDB4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_medico" id="6BF4E1EC-A325-EC94-2375-1830796F7F3E">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 12:48:34 UTC</createdTime>
+<comment><![CDATA[Este atributo receberá a chave primária e armazenará o id do médico.]]></comment>
+<generatorID>CEB19855-EF2C-3C34-AE33-3787C0893414</generatorID>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="0A1F2404-E310-1AE1-71E8-FB6792AAEDB4" value="true"/>
+</engineerTo>
+<referedAttribute>FD98F5A4-1064-47EF-E195-C6406DB390C1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_paciente" id="6E3543DC-5E06-A5F5-4800-67E19AB40BDF">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 12:49:28 UTC</createdTime>
+<comment><![CDATA[Este atributo receberá a chave primária e armazenará o id do paciente.]]></comment>
+<generatorID>94D29255-2A41-DEF5-37C0-36D0EBA7044A</generatorID>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="0A1F2404-E310-1AE1-71E8-FB6792AAEDB4" value="true"/>
+</engineerTo>
+<referedAttribute>800AED75-ECEC-B38B-F019-54C133266441</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="n_atendimento" id="EDCA4F1F-36BD-7885-EEC2-D0DBD460AE9B">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 12:49:57 UTC</createdTime>
+<comment><![CDATA[Este atributo receberá a chave primária e armazenará o número do atendimento.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo receberá a chave primária e armazenará o número do atendimento.]]></commentInRDBMS>
+<notes><![CDATA[Este atributo receberá a chave primária e armazenará o número do atendimento.]]></notes>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="0A1F2404-E310-1AE1-71E8-FB6792AAEDB4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="66C7173F-70C3-FDE1-8BB4-7A593C76C0C3" name="T_ATENDIMENTO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 12:48:34 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="0A1F2404-E310-1AE1-71E8-FB6792AAEDB4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6BF4E1EC-A325-EC94-2375-1830796F7F3E</attributeRef>
+<attributeRef>6E3543DC-5E06-A5F5-4800-67E19AB40BDF</attributeRef>
+<attributeRef>EDCA4F1F-36BD-7885-EEC2-D0DBD460AE9B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="41B4C58B-286E-B568-923F-12BCAF45C693" name="T_DEPENDENTE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 11:32:21 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="0A1F2404-E310-1AE1-71E8-FB6792AAEDB4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_dependente" id="D56BD48C-D567-64DD-F351-7D549D9C4F27">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 11:41:53 UTC</createdTime>
+<comment><![CDATA[Este atributo receberá a chave primária e armazenará o id do dependente do funcionário.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo receberá a chave primária e armazenará o id do dependente do funcionário.]]></commentInRDBMS>
+<notes><![CDATA[Este atributo receberá a chave primária e armazenará o id do dependente do funcionário.]]></notes>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="0A1F2404-E310-1AE1-71E8-FB6792AAEDB4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_funcionario" id="80A4F365-358A-153E-6D2E-A2845C28F3ED">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 12:38:22 UTC</createdTime>
+<comment><![CDATA[Este atributo irá receber a chave primária e armazenará o id do funcionário.]]></comment>
+<generatorID>06245BF2-90A0-0D1D-8BB9-223E796C2958</generatorID>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="0A1F2404-E310-1AE1-71E8-FB6792AAEDB4" value="true"/>
+</engineerTo>
+<referedAttribute>CE1BF2A9-8D5E-A048-9BD3-5E1B81BF0CB7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0439EDFC-1154-9877-F150-226893C25ACB" name="TB_DEPENDENTE PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 11:42:04 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="0A1F2404-E310-1AE1-71E8-FB6792AAEDB4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D56BD48C-D567-64DD-F351-7D549D9C4F27</attributeRef>
+<attributeRef>80A4F365-358A-153E-6D2E-A2845C28F3ED</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

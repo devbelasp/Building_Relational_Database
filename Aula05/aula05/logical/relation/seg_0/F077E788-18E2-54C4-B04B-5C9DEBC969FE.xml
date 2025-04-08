@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_LIVRO_AUTOR_LIVRO" directorySegmentName="seg_0" id="F077E788-18E2-54C4-B04B-5C9DEBC969FE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 12:58:57 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="0A1F2404-E310-1AE1-71E8-FB6792AAEDB4" value="true"/>
+</engineerTo>
+<sourcePk>024B2F84-45D4-4D58-7CD0-426BEC7F7483</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2C6DE59E-834F-23AA-8191-E9C6D3BBBF70</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>19E44D57-8245-6FA8-0491-C029083BFFAF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

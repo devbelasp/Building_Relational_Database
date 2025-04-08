@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="042DC7E7-409C-290C-0500-6726B89E6921" name="T_PEDIDO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 11:44:37 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="0A1F2404-E310-1AE1-71E8-FB6792AAEDB4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="num_pedido" id="02A7C657-25EE-0FCE-1F3B-D4203F18699B">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 11:47:55 UTC</createdTime>
+<comment><![CDATA[Este atributo irá receber a chave primária e armazena o número do pedido.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo irá receber a chave primária e armazena o número do pedido.]]></commentInRDBMS>
+<notes><![CDATA[Este atributo irá receber a chave primária e armazena o número do pedido.]]></notes>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="0A1F2404-E310-1AE1-71E8-FB6792AAEDB4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cliente" id="655A976A-8DFE-9FBE-B687-C27AC2FB52C0">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 12:41:26 UTC</createdTime>
+<comment><![CDATA[Este atributo irá receber a chave primária e armazenará o id do cliente.]]></comment>
+<generatorID>A8727007-A3B2-5555-365D-A7042DFE782C</generatorID>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="0A1F2404-E310-1AE1-71E8-FB6792AAEDB4" value="true"/>
+</engineerTo>
+<referedAttribute>E143F0BD-7460-58F7-3984-0591BB3709DD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5C7184FA-8FA7-F15D-0454-D8CC76BFD8E6" name="TB_PEDIDO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 11:48:02 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="0A1F2404-E310-1AE1-71E8-FB6792AAEDB4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>02A7C657-25EE-0FCE-1F3B-D4203F18699B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

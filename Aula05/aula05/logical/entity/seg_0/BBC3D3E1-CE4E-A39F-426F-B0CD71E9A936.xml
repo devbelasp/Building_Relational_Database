@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BBC3D3E1-CE4E-A39F-426F-B0CD71E9A936" name="T_CLIENTE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 11:44:46 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="0A1F2404-E310-1AE1-71E8-FB6792AAEDB4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cliente" id="E143F0BD-7460-58F7-3984-0591BB3709DD">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 11:57:49 UTC</createdTime>
+<comment><![CDATA[Este atributo irá receber a chave primária e armazenará o id do cliente.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo irá receber a chave primária e armazenará o id do cliente.]]></commentInRDBMS>
+<notes><![CDATA[Este atributo irá receber a chave primária e armazenará o id do cliente.]]></notes>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="0A1F2404-E310-1AE1-71E8-FB6792AAEDB4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FF94631D-D9AA-3721-0953-EC19F44D37BE" name="TB_CLIENTE PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 11:57:55 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="0A1F2404-E310-1AE1-71E8-FB6792AAEDB4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E143F0BD-7460-58F7-3984-0591BB3709DD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

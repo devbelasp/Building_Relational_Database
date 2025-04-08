@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="22BF5FB2-0F63-307A-4073-50599365AA99" name="T_MEDICO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 12:08:39 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="0A1F2404-E310-1AE1-71E8-FB6792AAEDB4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_medico" id="FD98F5A4-1064-47EF-E195-C6406DB390C1">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 12:24:29 UTC</createdTime>
+<comment><![CDATA[Este atributo receberá a chave primária e armazenará o id do médico.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo receberá a chave primária e armazenará o id do médico.]]></commentInRDBMS>
+<notes><![CDATA[Este atributo receberá a chave primária e armazenará o id do médico.]]></notes>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="0A1F2404-E310-1AE1-71E8-FB6792AAEDB4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7B2594C7-7ED9-6665-B585-0FE2065D9094" name="T_MEDICO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 12:24:39 UTC</createdTime>
+<ownerDesignName>aula05</ownerDesignName>
+<engineerTo>
+<item key="0A1F2404-E310-1AE1-71E8-FB6792AAEDB4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FD98F5A4-1064-47EF-E195-C6406DB390C1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
