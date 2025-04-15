@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FB51344F-8E1E-80B7-8CAC-894F446B5EFA" name="T_TELEFONE_PACIENTE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 11:29:24 UTC</createdTime>
+<ownerDesignName>CP1-ATENDIMENTO-PRONTO-SOCORRO</ownerDesignName>
+<engineerTo>
+<item key="9E793C78-F00B-DA4C-2F7F-B4FC483F1B77" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_telefone" id="7C7C9C08-E396-491A-058E-D3828E45C8DB">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 12:37:28 UTC</createdTime>
+<comment><![CDATA[Este atributo receberá a chave primária e o id do telefone de contato do paciente. Este atributo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo receberá a chave primária e o id do telefone de contato do paciente. Este atributo é obrigatório.]]></commentInRDBMS>
+<notes><![CDATA[Este atributo receberá a chave primária e o id do telefone de contato do paciente. Este atributo é obrigatório.]]></notes>
+<ownerDesignName>CP1-ATENDIMENTO-PRONTO-SOCORRO</ownerDesignName>
+<engineerTo>
+<item key="9E793C78-F00B-DA4C-2F7F-B4FC483F1B77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_paciente" id="9831956E-0BAF-38E6-7AEE-F1E1769827F2">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 12:28:16 UTC</createdTime>
+<comment><![CDATA[Este atributo receberá a chave primária e armazenará o id do paciente.]]></comment>
+<generatorID>A23FD1AF-A58D-9930-7384-4E8D1405A96B</generatorID>
+<ownerDesignName>CP1-ATENDIMENTO-PRONTO-SOCORRO</ownerDesignName>
+<engineerTo>
+<item key="9E793C78-F00B-DA4C-2F7F-B4FC483F1B77" value="true"/>
+</engineerTo>
+<referedAttribute>F97C4EA5-8261-D280-2A76-2BFC9060364C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ddi" id="F741E45E-02AA-9F67-1346-9E1693037905">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 11:33:11 UTC</createdTime>
+<comment><![CDATA[Este atributo receberá o DDI do telefone de contato do paciente. É um atributo obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo receberá o DDI do telefone de contato do paciente. É um atributo obrigatório.]]></commentInRDBMS>
+<notes><![CDATA[Este atributo receberá o DDI do telefone de contato do paciente. É um atributo obrigatório.]]></notes>
+<ownerDesignName>CP1-ATENDIMENTO-PRONTO-SOCORRO</ownerDesignName>
+<engineerTo>
+<item key="9E793C78-F00B-DA4C-2F7F-B4FC483F1B77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ddd" id="16928FCB-20DB-F885-D7FD-DDF63A19331F">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 11:37:24 UTC</createdTime>
+<comment><![CDATA[Este atributo receberá o DDD do telefone de contato do paciente. É um atributo obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo receberá o DDD do telefone de contato do paciente. É um atributo obrigatório.]]></commentInRDBMS>
+<notes><![CDATA[Este atributo receberá o DDD do telefone de contato do paciente. É um atributo obrigatório.]]></notes>
+<ownerDesignName>CP1-ATENDIMENTO-PRONTO-SOCORRO</ownerDesignName>
+<engineerTo>
+<item key="9E793C78-F00B-DA4C-2F7F-B4FC483F1B77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_telefone" id="200FE712-C537-0D4C-8F4E-CE9229CF5B57">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 11:30:18 UTC</createdTime>
+<comment><![CDATA[Este atributo receberá o número de telefone do paciente. É um atributo obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo receberá o número de telefone de contato do paciente. É um atributo obrigatório.]]></commentInRDBMS>
+<notes><![CDATA[Este atributo receberá o número de telefone do paciente. É um atributo obrigatório.]]></notes>
+<ownerDesignName>CP1-ATENDIMENTO-PRONTO-SOCORRO</ownerDesignName>
+<engineerTo>
+<item key="9E793C78-F00B-DA4C-2F7F-B4FC483F1B77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>70</dataTypePrecision>
+<ownDataTypeParameters>,70,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="78B329B3-F97C-F974-F6FD-30186ED00A5D">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 11:38:19 UTC</createdTime>
+<comment><![CDATA[Este atributo receberá o status do telefone de contato do paciente (ativo/inativo). É um atributo obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo receberá o status do telefone de contato do paciente (ativo/inativo). É um atributo obrigatório.]]></commentInRDBMS>
+<notes><![CDATA[Este atributo receberá o status do telefone de contato do paciente (ativo/inativo). É um atributo obrigatório.]]></notes>
+<ownerDesignName>CP1-ATENDIMENTO-PRONTO-SOCORRO</ownerDesignName>
+<engineerTo>
+<item key="9E793C78-F00B-DA4C-2F7F-B4FC483F1B77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ECA8CE23-679C-3418-E203-9ADD545CA205" name="T_TELEFONE_PACIENTE PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 12:28:16 UTC</createdTime>
+<ownerDesignName>CP1-ATENDIMENTO-PRONTO-SOCORRO</ownerDesignName>
+<engineerTo>
+<item key="9E793C78-F00B-DA4C-2F7F-B4FC483F1B77" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9831956E-0BAF-38E6-7AEE-F1E1769827F2</attributeRef>
+<attributeRef>7C7C9C08-E396-491A-058E-D3828E45C8DB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

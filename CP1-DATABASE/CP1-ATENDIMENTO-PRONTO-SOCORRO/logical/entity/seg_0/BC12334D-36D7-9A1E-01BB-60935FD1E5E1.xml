@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BC12334D-36D7-9A1E-01BB-60935FD1E5E1" name="T_CONTATO_EMERGENCIA_PACIENTE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 11:45:05 UTC</createdTime>
+<ownerDesignName>CP1-ATENDIMENTO-PRONTO-SOCORRO</ownerDesignName>
+<engineerTo>
+<item key="9E793C78-F00B-DA4C-2F7F-B4FC483F1B77" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_contato_emergencia" id="F39864B0-1FC4-BC82-7843-C1B14D472941">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 12:33:33 UTC</createdTime>
+<comment><![CDATA[Este atributo receberá a chave primária e o id do contato de emergência do paciente. Este atributo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo receberá a chave primária e o id do contato de emergência do paciente. Este atributo é obrigatório.]]></commentInRDBMS>
+<notes><![CDATA[Este atributo receberá a chave primária e o id do contato de emergência do paciente. Este atributo é obrigatório.]]></notes>
+<ownerDesignName>CP1-ATENDIMENTO-PRONTO-SOCORRO</ownerDesignName>
+<engineerTo>
+<item key="9E793C78-F00B-DA4C-2F7F-B4FC483F1B77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_paciente" id="23FFEEFD-033F-6331-F9D1-50C172A9FF72">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 12:30:39 UTC</createdTime>
+<comment><![CDATA[Este atributo receberá a chave primária e armazenará o id do paciente.]]></comment>
+<generatorID>C3784C20-8FBF-F419-22F6-D640C9031498</generatorID>
+<ownerDesignName>CP1-ATENDIMENTO-PRONTO-SOCORRO</ownerDesignName>
+<engineerTo>
+<item key="9E793C78-F00B-DA4C-2F7F-B4FC483F1B77" value="true"/>
+</engineerTo>
+<referedAttribute>F97C4EA5-8261-D280-2A76-2BFC9060364C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_contato_emergencia" id="B97F48D6-50B3-BCC9-2420-7ED4A70C3357">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 11:45:17 UTC</createdTime>
+<comment><![CDATA[Este atributo receberá o nome do contato de emergência do paciente. Este atributo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo receberá o nome do contato de emergência do paciente. Este atributo é obrigatório.]]></commentInRDBMS>
+<notes><![CDATA[Este atributo receberá o nome do contato de emergência do paciente. Este atributo é obrigatório.]]></notes>
+<ownerDesignName>CP1-ATENDIMENTO-PRONTO-SOCORRO</ownerDesignName>
+<engineerTo>
+<item key="9E793C78-F00B-DA4C-2F7F-B4FC483F1B77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone_contato_emergencia" id="B57BFC3C-DE82-05C4-2A7D-B8CDBACC3554">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 11:46:41 UTC</createdTime>
+<comment><![CDATA[Este atributo receberá o telefone do contato de emergência do paciente. Este atributo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo receberá o telefone do contato de emergência do paciente. Este atributo é obrigatório.]]></commentInRDBMS>
+<notes><![CDATA[Este atributo receberá o telefone do contato de emergência do paciente. Este atributo é obrigatório.]]></notes>
+<ownerDesignName>CP1-ATENDIMENTO-PRONTO-SOCORRO</ownerDesignName>
+<engineerTo>
+<item key="9E793C78-F00B-DA4C-2F7F-B4FC483F1B77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>70</dataTypePrecision>
+<ownDataTypeParameters>,70,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_de_contato" id="48D6EA16-9CEB-6E87-1B0B-46888D86DDA0">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 11:47:30 UTC</createdTime>
+<comment><![CDATA[Este atributo receberá o grau de relacionamento do contato de emergência com o paciente (mãe, pai, irmão, colega de trabalho, etc). Este atributo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo receberá o grau de relacionamento do contato de emergência com o paciente (mãe, pai, irmão, colega de trabalho, etc). Este atributo é obrigatório.]]></commentInRDBMS>
+<notes><![CDATA[Este atributo receberá o grau de relacionamento do contato de emergência com o paciente (mãe, pai, irmão, colega de trabalho, etc). Este atributo é obrigatório.]]></notes>
+<ownerDesignName>CP1-ATENDIMENTO-PRONTO-SOCORRO</ownerDesignName>
+<engineerTo>
+<item key="9E793C78-F00B-DA4C-2F7F-B4FC483F1B77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3D1AA0C5-4E55-B2AF-7162-1F72C623A7B3" name="T_CONTATO_EMERGENCIA_PACIENTE PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 12:30:39 UTC</createdTime>
+<ownerDesignName>CP1-ATENDIMENTO-PRONTO-SOCORRO</ownerDesignName>
+<engineerTo>
+<item key="9E793C78-F00B-DA4C-2F7F-B4FC483F1B77" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>23FFEEFD-033F-6331-F9D1-50C172A9FF72</attributeRef>
+<attributeRef>F39864B0-1FC4-BC82-7843-C1B14D472941</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

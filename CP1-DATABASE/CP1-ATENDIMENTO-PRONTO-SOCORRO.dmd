@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="CP1-ATENDIMENTO-PRONTO-SOCORRO" id="16F95685-A93F-7E12-9271-521121AB7F04" version="3.5">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 11:00:22 UTC</createdTime>
+<ownerDesignName>CP1-ATENDIMENTO-PRONTO-SOCORRO</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>16F95685-A93F-7E12-9271-521121AB7F04</designId>
+</OSDM_Design>

@@ -1,0 +1,210 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="307157C0-CA3D-DC06-7622-3AEE0BC2A9CC" name="T_PACIENTE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 11:00:43 UTC</createdTime>
+<ownerDesignName>CP1-ATENDIMENTO-PRONTO-SOCORRO</ownerDesignName>
+<engineerTo>
+<item key="9E793C78-F00B-DA4C-2F7F-B4FC483F1B77" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_paciente" id="F97C4EA5-8261-D280-2A76-2BFC9060364C">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 11:04:03 UTC</createdTime>
+<comment><![CDATA[Este atributo receberá a chave primária e armazenará o id do paciente.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo receberá a chave primária e armazenará o id do paciente.]]></commentInRDBMS>
+<notes><![CDATA[Este atributo receberá a chave primária e armazenará o id do paciente.]]></notes>
+<ownerDesignName>CP1-ATENDIMENTO-PRONTO-SOCORRO</ownerDesignName>
+<engineerTo>
+<item key="9E793C78-F00B-DA4C-2F7F-B4FC483F1B77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_completo" id="536FBC43-0FD2-D6A8-7BD4-F78380159ED6">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 11:01:09 UTC</createdTime>
+<comment><![CDATA[Este atributo receberá o nome completo do paciente. É um atributo obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo receberá o nome completo do paciente. É um atributo obrigatório.]]></commentInRDBMS>
+<notes><![CDATA[Este atributo receberá o nome completo do paciente. É um atributo obrigatório.]]></notes>
+<ownerDesignName>CP1-ATENDIMENTO-PRONTO-SOCORRO</ownerDesignName>
+<engineerTo>
+<item key="9E793C78-F00B-DA4C-2F7F-B4FC483F1B77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="FD115C52-4AA2-CB99-3043-5DE46F64E2DB">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 11:10:44 UTC</createdTime>
+<comment><![CDATA[Este atributo receberá o cpf do paciente.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo receberá o cpf do paciente.]]></commentInRDBMS>
+<notes><![CDATA[Este atributo receberá o cpf do paciente.]]></notes>
+<ownerDesignName>CP1-ATENDIMENTO-PRONTO-SOCORRO</ownerDesignName>
+<engineerTo>
+<item key="9E793C78-F00B-DA4C-2F7F-B4FC483F1B77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<ownDataTypeParameters>,14,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rg" id="9181E4E8-2565-5347-D637-11D6D6FF6F2E">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 11:11:54 UTC</createdTime>
+<comment><![CDATA[Este atributo receberá o RG do paciente. É um atributo obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo receberá o RG do paciente. É um atributo obrigatório.]]></commentInRDBMS>
+<notes><![CDATA[Este atributo receberá o RG do paciente. É um atributo obrigatório.]]></notes>
+<ownerDesignName>CP1-ATENDIMENTO-PRONTO-SOCORRO</ownerDesignName>
+<engineerTo>
+<item key="9E793C78-F00B-DA4C-2F7F-B4FC483F1B77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_de_nascimento" id="AEAA9887-3395-520C-8780-67E0B130BE15">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 11:12:50 UTC</createdTime>
+<comment><![CDATA[Este atributo receberá a data de nascimento do paciente. É um atributo obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo receberá a data de nascimento do paciente. É um atributo obrigatório.]]></commentInRDBMS>
+<notes><![CDATA[Este atributo receberá a data de nascimento do paciente. É um atributo obrigatório.]]></notes>
+<ownerDesignName>CP1-ATENDIMENTO-PRONTO-SOCORRO</ownerDesignName>
+<engineerTo>
+<item key="9E793C78-F00B-DA4C-2F7F-B4FC483F1B77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sexo" id="3BEEE494-1D8F-79DE-1106-5501515CEA82">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 11:16:13 UTC</createdTime>
+<comment><![CDATA[Este atributo receberá o sexo do paciente. É um atributo obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo receberá o sexo do paciente. É um atributo obrigatório.]]></commentInRDBMS>
+<notes><![CDATA[Este atributo receberá o sexo do paciente. É um atributo obrigatório.]]></notes>
+<ownerDesignName>CP1-ATENDIMENTO-PRONTO-SOCORRO</ownerDesignName>
+<engineerTo>
+<item key="9E793C78-F00B-DA4C-2F7F-B4FC483F1B77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="escolaridade" id="3E5ED48E-F721-30C8-4448-507C481C4A66">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 11:17:08 UTC</createdTime>
+<comment><![CDATA[Este atributo receberá a escolaridade do paciente. É um atributo obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo receberá a escolaridade do paciente. É um atributo obrigatório.]]></commentInRDBMS>
+<notes><![CDATA[Este atributo receberá a escolaridade do paciente. É um atributo obrigatório.]]></notes>
+<ownerDesignName>CP1-ATENDIMENTO-PRONTO-SOCORRO</ownerDesignName>
+<engineerTo>
+<item key="9E793C78-F00B-DA4C-2F7F-B4FC483F1B77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado_civil" id="76874647-747C-2C44-C2EF-BEBD6EA13423">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 11:18:40 UTC</createdTime>
+<comment><![CDATA[Este atributo receberá o estado civil do paciente. É um atributo obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo receberá o estado civil do paciente. É um atributo obrigatório.]]></commentInRDBMS>
+<notes><![CDATA[Este atributo receberá o estado civil do paciente. É um atributo obrigatório.]]></notes>
+<ownerDesignName>CP1-ATENDIMENTO-PRONTO-SOCORRO</ownerDesignName>
+<engineerTo>
+<item key="9E793C78-F00B-DA4C-2F7F-B4FC483F1B77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="grupo_sanguineo" id="7A3392F9-B8A6-AA16-A49C-7F93DB507295">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 11:19:25 UTC</createdTime>
+<comment><![CDATA[Este atributo receberá o grupo sanguíneo do paciente. É um atributo obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo receberá o grupo sanguíneo do paciente. É um atributo obrigatório.]]></commentInRDBMS>
+<notes><![CDATA[Este atributo receberá o grupo sanguíneo do paciente. É um atributo obrigatório.]]></notes>
+<ownerDesignName>CP1-ATENDIMENTO-PRONTO-SOCORRO</ownerDesignName>
+<engineerTo>
+<item key="9E793C78-F00B-DA4C-2F7F-B4FC483F1B77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="altura" id="FD5548A7-5725-34EC-EE12-AC60E3877AB3">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 11:21:02 UTC</createdTime>
+<comment><![CDATA[Este atributo receberá a altura do paciente. É um atributo obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo receberá a altura do paciente. É um atributo obrigatório.]]></commentInRDBMS>
+<notes><![CDATA[Este atributo receberá a altura do paciente. É um atributo obrigatório.]]></notes>
+<ownerDesignName>CP1-ATENDIMENTO-PRONTO-SOCORRO</ownerDesignName>
+<engineerTo>
+<item key="9E793C78-F00B-DA4C-2F7F-B4FC483F1B77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="peso" id="6AE7CBC7-C10B-FC95-7BDA-18DD83B2E44C">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 11:22:46 UTC</createdTime>
+<comment><![CDATA[Este atributo receberá o peso do paciente. É um atributo obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo receberá o peso do paciente. É um atributo obrigatório.]]></commentInRDBMS>
+<notes><![CDATA[Este atributo receberá o peso do paciente. É um atributo obrigatório.]]></notes>
+<ownerDesignName>CP1-ATENDIMENTO-PRONTO-SOCORRO</ownerDesignName>
+<engineerTo>
+<item key="9E793C78-F00B-DA4C-2F7F-B4FC483F1B77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ECDC286D-67AD-A13A-8C39-88F30D9A5369" name="T_PACIENTE PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 11:07:48 UTC</createdTime>
+<ownerDesignName>CP1-ATENDIMENTO-PRONTO-SOCORRO</ownerDesignName>
+<engineerTo>
+<item key="9E793C78-F00B-DA4C-2F7F-B4FC483F1B77" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F97C4EA5-8261-D280-2A76-2BFC9060364C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

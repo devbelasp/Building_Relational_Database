@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_PLANO_DE_SAUDE_PACIENTE_PLANO" directorySegmentName="seg_0" id="2B16E808-F1B6-370D-FC52-5A3CE6B1786F">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 12:24:38 UTC</createdTime>
+<ownerDesignName>CP1-ATENDIMENTO-PRONTO-SOCORRO</ownerDesignName>
+<engineerTo>
+<item key="9E793C78-F00B-DA4C-2F7F-B4FC483F1B77" value="true"/>
+</engineerTo>
+<sourcePk>5FC7651E-A3B4-9B14-F0B7-FFB2401EE8F4</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D53ED084-43A9-2CBA-9085-77AD94CF1B54</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4932B9DC-1DE2-BC63-20D6-AFC1202A032C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

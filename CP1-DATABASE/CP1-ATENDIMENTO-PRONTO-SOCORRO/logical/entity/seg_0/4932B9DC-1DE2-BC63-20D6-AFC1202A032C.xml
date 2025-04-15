@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4932B9DC-1DE2-BC63-20D6-AFC1202A032C" name="T_PACIENTE_PLANO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 12:10:18 UTC</createdTime>
+<ownerDesignName>CP1-ATENDIMENTO-PRONTO-SOCORRO</ownerDesignName>
+<engineerTo>
+<item key="9E793C78-F00B-DA4C-2F7F-B4FC483F1B77" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="data_inicio" id="D0D64ECD-E875-75BB-6CA9-22E726EA50A1">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 12:17:16 UTC</createdTime>
+<comment><![CDATA[Este atributo receberá a data de inicio da contratação do plano de saúde. Este atributo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo receberá a data de inicio da contratação do plano de saúde. Este atributo é obrigatório.]]></commentInRDBMS>
+<notes><![CDATA[Este atributo receberá a data de inicio da contratação do plano de saúde. Este atributo é obrigatório.]]></notes>
+<ownerDesignName>CP1-ATENDIMENTO-PRONTO-SOCORRO</ownerDesignName>
+<engineerTo>
+<item key="9E793C78-F00B-DA4C-2F7F-B4FC483F1B77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_termino" id="E2F5C815-4B20-9835-21E5-DA8E28355E7C">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 12:19:02 UTC</createdTime>
+<comment><![CDATA[Este atributo receberá a data de término da contratação do plano de saúde. Este atributo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo receberá a data de término da contratação do plano de saúde. Este atributo é obrigatório.]]></commentInRDBMS>
+<notes><![CDATA[Este atributo receberá a data de término da contratação do plano de saúde. Este atributo é obrigatório.]]></notes>
+<ownerDesignName>CP1-ATENDIMENTO-PRONTO-SOCORRO</ownerDesignName>
+<engineerTo>
+<item key="9E793C78-F00B-DA4C-2F7F-B4FC483F1B77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="3928445D-49FA-E27A-10E9-C59D7AD09EB3">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 12:20:32 UTC</createdTime>
+<comment><![CDATA[Este atributo receberá a descrição do plano de saúde. Este atributo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo receberá a descrição do plano de saúde. Este atributo é obrigatório.]]></commentInRDBMS>
+<notes><![CDATA[Este atributo receberá a descrição do plano de saúde. Este atributo é obrigatório.]]></notes>
+<ownerDesignName>CP1-ATENDIMENTO-PRONTO-SOCORRO</ownerDesignName>
+<engineerTo>
+<item key="9E793C78-F00B-DA4C-2F7F-B4FC483F1B77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_paciente" id="7B1BEF92-D27A-1E8F-5EC5-222FF6E4A379">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 12:23:54 UTC</createdTime>
+<comment><![CDATA[Este atributo receberá a chave primária e armazenará o id do paciente.]]></comment>
+<generatorID>3F5CA74B-A647-6551-969E-D9CE28FE8C9E</generatorID>
+<ownerDesignName>CP1-ATENDIMENTO-PRONTO-SOCORRO</ownerDesignName>
+<engineerTo>
+<item key="9E793C78-F00B-DA4C-2F7F-B4FC483F1B77" value="true"/>
+</engineerTo>
+<referedAttribute>F97C4EA5-8261-D280-2A76-2BFC9060364C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_plano_de_saude" id="2F1A6A16-6BD5-F265-A928-DED8AA5065EA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 12:24:38 UTC</createdTime>
+<comment><![CDATA[Este atributo receberá a chave primária e armazenará o id do plano de saúde. Este atributo é obrigatório.]]></comment>
+<generatorID>2B16E808-F1B6-370D-FC52-5A3CE6B1786F</generatorID>
+<ownerDesignName>CP1-ATENDIMENTO-PRONTO-SOCORRO</ownerDesignName>
+<engineerTo>
+<item key="9E793C78-F00B-DA4C-2F7F-B4FC483F1B77" value="true"/>
+</engineerTo>
+<referedAttribute>8590BFAA-1995-2791-4250-E6D2E94FF2F4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2ED307D6-D710-C39D-4036-EB5416842AD3" name="T_PACIENTE_PLANO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 12:23:54 UTC</createdTime>
+<ownerDesignName>CP1-ATENDIMENTO-PRONTO-SOCORRO</ownerDesignName>
+<engineerTo>
+<item key="9E793C78-F00B-DA4C-2F7F-B4FC483F1B77" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7B1BEF92-D27A-1E8F-5EC5-222FF6E4A379</attributeRef>
+<attributeRef>2F1A6A16-6BD5-F265-A928-DED8AA5065EA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

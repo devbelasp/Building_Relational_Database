@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C352CB16-35DE-25AE-9AA9-467D45D8DE6A" name="T_EMAIL_PACIENTE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 11:41:34 UTC</createdTime>
+<ownerDesignName>CP1-ATENDIMENTO-PRONTO-SOCORRO</ownerDesignName>
+<engineerTo>
+<item key="9E793C78-F00B-DA4C-2F7F-B4FC483F1B77" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_email" id="B6955559-19D8-7C00-85DB-18B4A9F16414">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 12:38:28 UTC</createdTime>
+<comment><![CDATA[Este atributo receberá a chave primária e o id do email de contato do paciente. Este atributo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo receberá a chave primária e o id do email de contato do paciente. Este atributo é obrigatório.]]></commentInRDBMS>
+<notes><![CDATA[Este atributo receberá a chave primária e o id do email de contato do paciente. Este atributo é obrigatório.]]></notes>
+<ownerDesignName>CP1-ATENDIMENTO-PRONTO-SOCORRO</ownerDesignName>
+<engineerTo>
+<item key="9E793C78-F00B-DA4C-2F7F-B4FC483F1B77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_paciente" id="CB2A498E-D4ED-4287-8050-A5B2782148F2">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 12:29:48 UTC</createdTime>
+<comment><![CDATA[Este atributo receberá a chave primária e armazenará o id do paciente.]]></comment>
+<generatorID>0FB708F0-BA82-B84C-D76C-47C55FD910ED</generatorID>
+<ownerDesignName>CP1-ATENDIMENTO-PRONTO-SOCORRO</ownerDesignName>
+<engineerTo>
+<item key="9E793C78-F00B-DA4C-2F7F-B4FC483F1B77" value="true"/>
+</engineerTo>
+<referedAttribute>F97C4EA5-8261-D280-2A76-2BFC9060364C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="4B55A7DA-4AC6-1931-1B0A-2ECEF96D28D8">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 11:41:56 UTC</createdTime>
+<comment><![CDATA[Este atributo receberá os emails de contato do paciente. Este atributo  é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo receberá os emails de contato do paciente. Este atributo  é obrigatório.]]></commentInRDBMS>
+<notes><![CDATA[Este atributo receberá os emails de contato do paciente. Este atributo  é obrigatório.]]></notes>
+<ownerDesignName>CP1-ATENDIMENTO-PRONTO-SOCORRO</ownerDesignName>
+<engineerTo>
+<item key="9E793C78-F00B-DA4C-2F7F-B4FC483F1B77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="9E57A516-52BC-8974-30BD-63142FA30649">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 11:43:23 UTC</createdTime>
+<comment><![CDATA[Este atributo receberá os status dos emails de contato do paciente. Este atributo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo receberá os status dos emails de contato do paciente. Este atributo é obrigatório.]]></commentInRDBMS>
+<notes><![CDATA[Este atributo receberá os status dos emails de contato do paciente. Este atributo é obrigatório.]]></notes>
+<ownerDesignName>CP1-ATENDIMENTO-PRONTO-SOCORRO</ownerDesignName>
+<engineerTo>
+<item key="9E793C78-F00B-DA4C-2F7F-B4FC483F1B77" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7F880D55-F7EF-E20F-0DCA-F17DD3EAF408" name="T_EMAIL_PACIENTE PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 12:29:48 UTC</createdTime>
+<ownerDesignName>CP1-ATENDIMENTO-PRONTO-SOCORRO</ownerDesignName>
+<engineerTo>
+<item key="9E793C78-F00B-DA4C-2F7F-B4FC483F1B77" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CB2A498E-D4ED-4287-8050-A5B2782148F2</attributeRef>
+<attributeRef>B6955559-19D8-7C00-85DB-18B4A9F16414</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
