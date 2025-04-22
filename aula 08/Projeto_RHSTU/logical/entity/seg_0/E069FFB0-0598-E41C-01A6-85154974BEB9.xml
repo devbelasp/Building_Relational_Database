@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E069FFB0-0598-E41C-01A6-85154974BEB9" name="T_RHSTU_CONSULTA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-22 12:10:15 UTC</createdTime>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CONSULTA" id="5B774530-1942-5B23-7BA1-D713EC089123">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-22 12:13:21 UTC</createdTime>
+<comment><![CDATA[Esse atributo receberá a chave primária e o id da consulta médica.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo receberá a chave primária e o id da consulta médica.]]></commentInRDBMS>
+<notes><![CDATA[Esse atributo receberá a chave primária e o id da consulta médica.]]></notes>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_CONSULTA" id="B79F9BA1-8CAB-7144-CFF4-D6B11AA35275">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-22 12:14:23 UTC</createdTime>
+<comment><![CDATA[Este atributo receberá a data da consulta médica. É um atributo obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo receberá a data da consulta médica. É um atributo obrigatório.]]></commentInRDBMS>
+<notes><![CDATA[Este atributo receberá a data da consulta médica. É um atributo obrigatório.]]></notes>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_SALA_CONSULTA" id="38C0E931-325A-3A43-ACDB-9E6DECFFF03B">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-22 12:15:37 UTC</createdTime>
+<comment><![CDATA[Este atributo receberá o número da sala  da consulta médica. É um atributo obrigatório.]]></comment>
+<notes><![CDATA[Este atributo receberá o número da sala  da consulta médica. É um atributo obrigatório.]]></notes>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PACIENTE" id="5E91B203-11D6-B725-B033-25233BCC99B1">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-22 12:18:38 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária do paciente. Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<generatorID>9684447C-F64B-637E-8FF2-C182E5F9C14E</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>15A097FF-A07C-398B-0F86-D42FFB66F5C7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_MEDICO" id="659AFFA4-494A-652A-20F9-27F1CBF39A47">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-22 12:19:34 UTC</createdTime>
+<comment><![CDATA[Este atributo receberá a chave primária e o id do médico.]]></comment>
+<generatorID>85521A52-A434-9D6E-95D2-19CFB9773C30</generatorID>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>F923F537-C683-B354-5ED3-6DADE0CB2201</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="884EEEFC-4C85-B01C-71DE-7BE88DE542D2" name="T_RHSTU_ATENDIMENTO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-22 12:14:21 UTC</createdTime>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5B774530-1942-5B23-7BA1-D713EC089123</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

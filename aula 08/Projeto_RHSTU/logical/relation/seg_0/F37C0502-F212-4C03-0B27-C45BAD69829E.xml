@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_RHSTU_CONSULTA_RHSTU_PAGAMENTO" directorySegmentName="seg_0" id="F37C0502-F212-4C03-0B27-C45BAD69829E">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-22 12:48:47 UTC</createdTime>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<sourcePk>884EEEFC-4C85-B01C-71DE-7BE88DE542D2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E069FFB0-0598-E41C-01A6-85154974BEB9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F3407566-0ED3-B5FC-E393-41DAED97F2A2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

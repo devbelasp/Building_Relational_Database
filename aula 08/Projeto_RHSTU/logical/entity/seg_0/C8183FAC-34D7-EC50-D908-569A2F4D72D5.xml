@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C8183FAC-34D7-EC50-D908-569A2F4D72D5" name="T_RHSTU_MEDICO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-22 12:09:21 UTC</createdTime>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_MEDICO" id="F923F537-C683-B354-5ED3-6DADE0CB2201">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-22 12:11:45 UTC</createdTime>
+<comment><![CDATA[Este atributo receberá a chave primária e o id do médico.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo receberá a chave primária e o id do médico.]]></commentInRDBMS>
+<notes><![CDATA[Este atributo receberá a chave primária e o id do médico.]]></notes>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_MEDICO" id="2470AEA4-4AC5-E7BC-7C9A-E9050C4DCB74">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-22 12:20:12 UTC</createdTime>
+<comment><![CDATA[Este atributo receberá o nome do médico. É um atributo obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Este atributo receberá o nome do médico. É um atributo obrigatório.]]></commentInRDBMS>
+<notes><![CDATA[Este atributo receberá o nome do médico. É um atributo obrigatório.]]></notes>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3B6E2D5C-CB1D-7BEF-C690-4988FDBADBF6" name="T_RHSTU_MEDICO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-22 12:12:07 UTC</createdTime>
+<ownerDesignName>Projeto_RHSTU</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F923F537-C683-B354-5ED3-6DADE0CB2201</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
