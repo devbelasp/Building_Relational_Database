@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RHSTU_MEDICAMENTO_RHSTU_PRESCRICAO" directorySegmentName="seg_0" id="886578AD-89C5-6918-27A7-349500A584A5">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-29 12:22:02 UTC</createdTime>
+<ownerDesignName>Projeto_RHSTU_V3</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<sourcePk>725191AC-155E-86B0-1567-B54B40B5F4DD</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4552C33B-4AEB-034C-6B78-D886769F4CDB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>96A8F79C-8BEA-B4F9-3F09-1274AE88875D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

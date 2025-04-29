@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="96A8F79C-8BEA-B4F9-3F09-1274AE88875D" name="T_RHSTU_PRESCRICAO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-29 12:08:36 UTC</createdTime>
+<ownerDesignName>Projeto_RHSTU_V3</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CD_PRESCRICAO_MEDICAMENTO" id="3A6C0BF5-8C23-89D8-66A7-9EAE6EAF4217">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-29 12:08:53 UTC</createdTime>
+<comment><![CDATA[Esse atributo receberá a chave primária e o código da prescrição do medicamento.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo receberá a chave primária e o código da prescrição do medicamento.]]></commentInRDBMS>
+<notes><![CDATA[Esse atributo receberá a chave primária e o código da prescrição do medicamento.]]></notes>
+<ownerDesignName>Projeto_RHSTU_V3</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_MEDICAMENTO" id="07E6D31C-2DB0-C6F8-7F0C-2032EACC4125">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-29 12:22:02 UTC</createdTime>
+<comment><![CDATA[Esse atributo receberá a chave primária e o código do medicamento.]]></comment>
+<generatorID>886578AD-89C5-6918-27A7-349500A584A5</generatorID>
+<ownerDesignName>Projeto_RHSTU_V3</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>AE88C789-FB12-2CBF-8069-E7B5A4E10977</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CONSULTA" id="7B6F4418-0AB8-4F01-F81A-59B6308A7894">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-29 12:21:17 UTC</createdTime>
+<generatorID>5EB4946B-82E5-1993-46B0-F6C82C393591</generatorID>
+<ownerDesignName>Projeto_RHSTU_V3</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>4DC2BBD4-5844-F984-AA0B-B83576D7F211</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_UNID_HOSPITAL" id="3A59D03A-3A6B-0CDB-C8C5-F90CC4C2EFEF">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-29 12:21:17 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária da Unidade Hospitalar. Esse número é sequencia e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<generatorID>5EB4946B-82E5-1993-46B0-F6C82C393591</generatorID>
+<ownerDesignName>Projeto_RHSTU_V3</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>B6C488CB-AE82-A793-0536-0FCACEBB3861</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_POSOLOGIA" id="18B5B143-C96D-5962-F59E-24A469BB6EC2">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-29 12:10:19 UTC</createdTime>
+<comment><![CDATA[Esse atributo receberá a descrição da posologia do medicamento.. É um atributo obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo receberá a descrição da posologia do medicamento.. É um atributo obrigatório.]]></commentInRDBMS>
+<notes><![CDATA[Esse atributo receberá a descrição da posologia do medicamento.. É um atributo obrigatório.]]></notes>
+<ownerDesignName>Projeto_RHSTU_V3</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_VIA_MEDICAMENTO" id="E8E6B490-8B5F-8C19-AE42-2E7EC060C466">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-29 12:11:31 UTC</createdTime>
+<comment><![CDATA[Esse atributo receberá a descrição da via do medicamento (oral, injetável ou outra via). É um atributo obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo receberá a descrição da via do medicamento (oral, injetável ou outra via). É um atributo obrigatório.]]></commentInRDBMS>
+<notes><![CDATA[Esse atributo receberá a descrição da via do medicamento (oral, injetável ou outra via). É um atributo obrigatório.]]></notes>
+<ownerDesignName>Projeto_RHSTU_V3</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_ORIENTACAO_USO_MEDICAMENTO" id="F237581D-34FC-3364-B0BE-2CBE612BBC79">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-29 12:13:14 UTC</createdTime>
+<comment><![CDATA[Esse atributo receberá a descrição da orientação de uso do medicamento.  É um atributo obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo receberá a descrição da orientação de uso do medicamento.  É um atributo obrigatório.]]></commentInRDBMS>
+<notes><![CDATA[Esse atributo receberá a descrição da orientação de uso do medicamento.  É um atributo obrigatório.]]></notes>
+<ownerDesignName>Projeto_RHSTU_V3</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DBBC4FE7-B192-3693-A56D-129DDE01A26E" name="T_RHSTU_PRESCRICAO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-29 12:09:07 UTC</createdTime>
+<ownerDesignName>Projeto_RHSTU_V3</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3A6C0BF5-8C23-89D8-66A7-9EAE6EAF4217</attributeRef>
+<attributeRef>7B6F4418-0AB8-4F01-F81A-59B6308A7894</attributeRef>
+<attributeRef>3A59D03A-3A6B-0CDB-C8C5-F90CC4C2EFEF</attributeRef>
+<attributeRef>07E6D31C-2DB0-C6F8-7F0C-2032EACC4125</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4552C33B-4AEB-034C-6B78-D886769F4CDB" name="T_RHSTU_MEDICAMENTO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-29 11:56:46 UTC</createdTime>
+<ownerDesignName>Projeto_RHSTU_V3</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CD_MEDICAMENTO" id="AE88C789-FB12-2CBF-8069-E7B5A4E10977">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-29 11:57:45 UTC</createdTime>
+<comment><![CDATA[Esse atributo receberá a chave primária e o código do medicamento.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo receberá a chave primária e o código do medicamento.]]></commentInRDBMS>
+<notes><![CDATA[Esse atributo receberá a chave primária e o código do medicamento.]]></notes>
+<ownerDesignName>Projeto_RHSTU_V3</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_MEDICAMENTO" id="5864EB59-45D1-C0F4-E247-45BD4B64C9C0">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-29 11:58:45 UTC</createdTime>
+<comment><![CDATA[Esse atributo receberá o nome do medicamento. É um atributo obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo receberá o nome do medicamento. É um atributo obrigatório.]]></commentInRDBMS>
+<notes><![CDATA[Esse atributo receberá o nome do medicamento. É um atributo obrigatório.]]></notes>
+<ownerDesignName>Projeto_RHSTU_V3</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="725191AC-155E-86B0-1567-B54B40B5F4DD" name="T_RHSTU_MEDICAMENTO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-29 11:57:58 UTC</createdTime>
+<ownerDesignName>Projeto_RHSTU_V3</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AE88C789-FB12-2CBF-8069-E7B5A4E10977</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
