@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B0D4A38F-24DC-CD60-80DD-E9491AF43107" name="T_RHSTU_CIDADE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 12:21:49 UTC</createdTime>
+<ownerDesignName>CP2</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CIDADE" id="20ADFF6B-F57E-9C4F-5504-95DE51451DBE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 12:21:56 UTC</createdTime>
+<ownerDesignName>CP2</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_CIDADE" id="BF6C901B-8EDD-3EA8-520B-6A9B1114E361">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 12:22:23 UTC</createdTime>
+<ownerDesignName>CP2</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ESTADO" id="AF9208C2-049C-644C-EC8F-95292022D45E">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 12:30:14 UTC</createdTime>
+<generatorID>56CAE18B-1051-AB46-4856-D8BDCF8D80CA</generatorID>
+<ownerDesignName>CP2</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>02658078-7F44-8EF9-FEEE-302FED24FD75</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CA4C41A5-FC6F-B74B-D880-3E378DD5031A" name="T_RHSTU_CIDADE PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 12:22:16 UTC</createdTime>
+<ownerDesignName>CP2</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>20ADFF6B-F57E-9C4F-5504-95DE51451DBE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

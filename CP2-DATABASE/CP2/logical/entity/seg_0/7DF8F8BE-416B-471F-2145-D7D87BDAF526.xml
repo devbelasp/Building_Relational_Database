@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7DF8F8BE-416B-471F-2145-D7D87BDAF526" name="T_RHSTU_PIX">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 12:05:54 UTC</createdTime>
+<ownerDesignName>CP2</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CONSULTA_FORMA_PAGTO" id="1BDFDF5C-C9B7-EB6B-6F99-4FA18F313C9B">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 12:14:39 UTC</createdTime>
+<generatorID>DF698DCF-D392-72DD-1A40-A970C3CBA83E</generatorID>
+<ownerDesignName>CP2</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>ADD37499-0A55-F7B7-05D0-4CDA34F30DB9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_TRANSACAO" id="D564E90B-810F-2020-27BD-49ED1CC4B270">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 12:06:21 UTC</createdTime>
+<comment><![CDATA[Esse atributo receberá o número da transação do pix. É obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo receberá o número da transação do pix. É obrigatório.]]></commentInRDBMS>
+<notes><![CDATA[Esse atributo receberá o número da transação do pix. É obrigatório.]]></notes>
+<ownerDesignName>CP2</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_TRANSACAO" id="6C9642FC-6039-FC2C-9FB7-220BF0D91B7B">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 12:07:28 UTC</createdTime>
+<comment><![CDATA[Esse atributo receberá a data da transação do pix. É obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo receberá a data da transação do pix. É obrigatório.]]></commentInRDBMS>
+<notes><![CDATA[Esse atributo receberá a data da transação do pix. É obrigatório.]]></notes>
+<ownerDesignName>CP2</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_PIX" id="C4DEAE22-3A89-8855-B1AD-2AF00FD0890B">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 12:08:19 UTC</createdTime>
+<comment><![CDATA[Esse atributo receberá a descrição do pix (CPF, email, nr_celular). É obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo receberá a descrição do pix (CPF, email, nr_celular). É obrigatório.]]></commentInRDBMS>
+<notes><![CDATA[Esse atributo receberá a descrição do pix (CPF, email, nr_celular). É obrigatório.]]></notes>
+<ownerDesignName>CP2</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="495E4EE5-74E3-A2C2-FC8E-B3084641E6F9" name="T_RHSTU_PIX PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 12:15:01 UTC</createdTime>
+<ownerDesignName>CP2</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1BDFDF5C-C9B7-EB6B-6F99-4FA18F313C9B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

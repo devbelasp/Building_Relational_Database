@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="545B0168-ABBC-3C63-719A-AB1C320F3659" name="T_RHSTU_CARTAO_CREDITO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 11:55:34 UTC</createdTime>
+<ownerDesignName>CP2</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CONSULTA_FORMA_PAGTO" id="C2F0D5E2-AAE1-2177-2661-A5E1329F4D61">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 12:12:24 UTC</createdTime>
+<generatorID>D9081047-C2D8-5EC7-EFDD-A24BFA1D4BF0</generatorID>
+<ownerDesignName>CP2</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>ADD37499-0A55-F7B7-05D0-4CDA34F30DB9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_BANDEIRA" id="1C67FEA7-234F-E5E5-FF8E-290A838EFA09">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 11:56:02 UTC</createdTime>
+<comment><![CDATA[Esse atributo receberá o nome da bandeira do cartão de crédito. É obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo receberá o nome da bandeira do cartão de crédito. É obrigatório.]]></commentInRDBMS>
+<notes><![CDATA[Esse atributo receberá o nome da bandeira do cartão de crédito. É obrigatório.]]></notes>
+<ownerDesignName>CP2</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CARTAO_CREDITO" id="9C4388BA-FCC9-8367-E316-5DFD1C1EE328">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 11:57:19 UTC</createdTime>
+<comment><![CDATA[Esse atributo receberá o número do cartão de crédito. É obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo receberá o número do cartão de crédito. É obrigatório.]]></commentInRDBMS>
+<notes><![CDATA[Esse atributo receberá o número do cartão de crédito. É obrigatório.]]></notes>
+<ownerDesignName>CP2</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>30</dataTypePrecision>
+<ownDataTypeParameters>,30,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_VENCIMENTO" id="81C0E4C7-C38B-B8AD-B560-D0401D9C931F">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 11:58:23 UTC</createdTime>
+<comment><![CDATA[Esse atributo receberá a data de vencimento do cartão de crédito. É obrigatório]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo receberá a data de vencimento do cartão de crédito. É obrigatório.]]></commentInRDBMS>
+<notes><![CDATA[Esse atributo receberá a data de vencimento do cartão de crédito. É obrigatório]]></notes>
+<ownerDesignName>CP2</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_TRANSACAO" id="9989468B-0FDA-1C28-E65B-F09F20EA5E18">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 11:59:00 UTC</createdTime>
+<comment><![CDATA[Esse atributo receberá o número de transação do cartão de crédito. É obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo receberá o número de transação do cartão de crédito. É obrigatório.]]></commentInRDBMS>
+<notes><![CDATA[Esse atributo receberá o número de transação do cartão de crédito. É obrigatório.]]></notes>
+<ownerDesignName>CP2</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_TRANSACAO" id="81628482-90B9-B530-0FE7-B5ACE85606D6">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 12:01:26 UTC</createdTime>
+<comment><![CDATA[Esse atributo receberá a data de transação do cartão de crédito. É obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo receberá a data de transação do cartão de crédito. É obrigatório.]]></commentInRDBMS>
+<notes><![CDATA[Esse atributo receberá a data de transação do cartão de crédito. É obrigatório.]]></notes>
+<ownerDesignName>CP2</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="07E2AA8F-17CB-9024-B7E1-1BA54A098A2C" name="T_RHSTU_CARTAO_CREDITO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 12:13:08 UTC</createdTime>
+<ownerDesignName>CP2</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C2F0D5E2-AAE1-2177-2661-A5E1329F4D61</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="376A2A69-6D83-9C6E-D832-83933767BC9B" name="T_RHSTU_BAIRRO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 12:21:01 UTC</createdTime>
+<ownerDesignName>CP2</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_BAIRRO" id="E0699CA1-DC43-BF50-BA6F-FD722B2C689F">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 12:21:17 UTC</createdTime>
+<ownerDesignName>CP2</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_BAIRRO" id="4C3D746C-695E-8E4D-EA7C-7A08BF93EC48">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 12:25:24 UTC</createdTime>
+<ownerDesignName>CP2</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CIDADE" id="6D7725E7-1E29-8594-DB35-3EE2429272EB">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 12:29:32 UTC</createdTime>
+<generatorID>0A5F85EB-F98E-84B6-10C1-2AABCF84F0FA</generatorID>
+<ownerDesignName>CP2</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>20ADFF6B-F57E-9C4F-5504-95DE51451DBE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="39BF399E-949F-89BC-7344-6285A5A00EAF" name="T_RHSTU_BAIRRO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 12:21:38 UTC</createdTime>
+<ownerDesignName>CP2</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E0699CA1-DC43-BF50-BA6F-FD722B2C689F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
